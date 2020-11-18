@@ -1,0 +1,132 @@
+dist/
+piekarma.egg-info/
+*.out
+*.zip
+*.db
+piekarma/generate_app/out/
+
+#####################################
+# pv stuff:
+webapps-asyncio-infrastucture/
+
+# vagrant stuff
+.vagrant
+package.box
+
+# pycharm dir
+.idea/
+
+# virtualenv dirs
+venv/
+.venv/
+venv_local/
+.venv_local/
+
+# temp sqlite db
+.sqlite.db
+
+# temp dir & temp files
+tmp/
+.~lock.*#
+
+# docker stuff
+docker-compose.yml
+db.conf
+
+# javascript stuff
+node_modules/
+bower_components/
+
+# junit tests dir
+surefire-reports/
+
+# test results in tap format
+*.tap
+
+# ember stuff
+# compiled output
+/client/dist
+/client/tmp
+
+# dependencies
+/client/node_modules
+/client/bower_components
+
+# misc
+/client/.sass-cache
+/client/connect.lock
+/client/coverage/*
+/client/libpeerconnection.log
+npm-debug.log
+testem.log
+
+
+# https://github.com/github/gitignore/blob/master/Python.gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+.DS_Store
+
+# vim .sw files
+*.sw*
+.bashful
+git.msg
+test_list.md
+
+postgres_local.conf
