@@ -48,3 +48,4 @@ if __name__ == "__main__":
     s = Solution()
     r = s.constructMaximumBinaryTree([3,2,1,6,0,5])
     assert r == TreeNode(6, TreeNode(3, None, TreeNode(2, None, TreeNode(1))), TreeNode(5, TreeNode(0)))
+    
