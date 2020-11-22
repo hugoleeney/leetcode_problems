@@ -10,7 +10,7 @@ work to be of benefit.
  
 I also stop if I believe my solution to be optimal or if I don't believe further work will
 benefit my practice (i.e. not all solutions here are optimal - nor are they supposed to 
-represent my best work ;) .
+represent my best work ;)) .
 If I do not have a solution I usually keep going until I do.
 I spend some time after each problem looking at other solutions. 
 
