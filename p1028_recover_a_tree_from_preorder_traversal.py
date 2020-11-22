@@ -15,27 +15,20 @@ class Solution:
 
     def recoverFromPreorder(self, S: str) -> TreeNode:
 
-        val = ""
-        i = 0
-        while i < len(S) and S[i] != "-":
-            val += S[i]
-            i += 1
-        val = int(val)
-        root = TreeNode(val)
+        S = S.split('-')
+        i = 1
+        root = TreeNode(int(S[0]))
         branches = [root]
         prev_depth = 0
         while i < len(S):
-            next_depth = 0
-            while S[i] == "-":
+            next_depth = 1
+            while S[i] == "":
                 next_depth += 1
                 i += 1
             pops = next_depth - prev_depth if next_depth > prev_depth else abs(next_depth - prev_depth) + 2
 
-            val = ""
-            while i < len(S) and S[i] != "-":
-                val += S[i]
-                i += 1
-            val = int(val)
+            val = int(S[i])
+            i += 1
 
             for _ in range(pops):
                 parent = branches.pop()
