@@ -26,6 +26,10 @@ class TreeNode:
 
 
 class Solution:
+    """
+    possibly more efficiently done by converting to list and checking for gaps
+    """
+
     def isCompleteTree(self, root: TreeNode) -> bool:
         q = deque([(root, 0)])
         incomplete_level = None
